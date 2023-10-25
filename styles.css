@@ -1,0 +1,82 @@
+/* Global  Start*/
+*, *::before , *::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.flex-box{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.flex-box ul li{
+    display: inline-block;
+    padding: 10px;
+}
+.flex-box ul{
+    flex-wrap: wrap;
+}
+/* Global end  */
+
+
+/* Header content styles  start*/
+.appsbutton{
+    width: 15px;
+}
+.sign a{
+    background-color:blue;
+    color: white;
+    padding: 6px;
+    border-radius: 5px;
+}
+/* Haeder content styles end  */
+
+
+/* Main content styles start */
+#main-box{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+}
+.input-area{
+    border: solid 2px black;
+    width: 600px;
+    height: 40px;
+    display: flex;
+    margin: 10px auto;
+    border-radius: 20px;
+}
+.main-box-con{
+    width: 40%;
+    margin: auto;
+}
+input{
+    margin: auto;
+    border: none;
+}
+input[type=search]{
+    width: 80%;
+    height: 100%;
+    border: none;
+    outline-style: none;
+}
+input[type=submit], input[type=reset]{
+    padding: 10px;
+    margin: 5px;
+}
+/* Main content style end  */
+
+
+/* footer content start */
+#footer-con{
+    background-color: rgb(249, 247, 247);
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+}
+/* Footer content end */
